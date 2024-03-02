@@ -1,6 +1,6 @@
-import Image from "next/image";
 
-export default function Home() {
+
+export default function Footer() {
   return (
     <footer className="Footer_footer__o4_Ec" role="contentinfo">
     <div className="Footer_container__Mn8SS container">

@@ -1,19 +1,8 @@
-import Image from "next/image";
 
-export default Navbar;
+
+export default function Navbar() {
   return (
     <>
-  <div
-    style={{
-      position: "fixed",
-      zIndex: 9999,
-      top: 32,
-      left: 32,
-      right: 32,
-      bottom: 32,
-      pointerEvents: "none"
-    }}
-  />
   <div id="mobileNavigationr" className="Navigation_navigationMobile__SOXkZ">
     <div className="Navigation_navigationItemMobile__NwoRk">
       <a href="/">Home</a>
@@ -95,7 +84,7 @@ export default Navbar;
               <a
                 className="Navigation_link__p_0Vi"
                 data-radix-collection-item=""
-                href="/get-in-touch"
+                href="/getintouch"
               >
                 Get In Touch
               </a>
@@ -117,5 +106,7 @@ export default Navbar;
   </header>
 </>
 
+
+
   );
- 
+}
