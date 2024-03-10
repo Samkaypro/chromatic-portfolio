@@ -1,0 +1,46 @@
+/* Regular CSS */
+.navbar {
+    display: none; /* Hidden by default */
+  }
+  
+  @media (min-width: 768px) {
+    .navbar {
+      display: flex; /* Display as flex at medium breakpoint and above */
+      flex-direction: row; /* Flex direction set to row at medium breakpoint and above */
+    }
+  }
+
+  .navbar {
+    color: #fff; /* Text color */
+    font-size: 0.875rem; /* Small font size */
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 0.6rem 0 1rem;
+    background: #010314;
+    border-radius: 2rem; /* Medium rounded corners */
+    border: 1px solid #383a4d;
+    z-index: -1; /* Negative z-index */
+    width: 50%;
+    height: 3.2rem;
+    margin: 1rem auto; /* Horizontally align in the middle */
+}
+
+
+
+  .link:hover {
+        color: #9fa2b9;
+      }
+
+
+  .header {
+    height: 4.8rem;
+    align-items: center;
+    padding: 10px;
+}
+  
+@media (max-width: 768px) {
+    .header {
+     padding: 0;
+     height: 0;
+    }
+  }
