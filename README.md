@@ -25,7 +25,7 @@
 - Once the deployment is complete, Vercel will provide you with a unique URL where you can access your deployed project.
 
 ## Step 6: Customize The code
--- Any changes you make to the repository in your GitHub account can be automatically deployed to Vercel using continuous deployment.
+- Any changes you make to the repository in your GitHub account can be automatically deployed to Vercel using continuous deployment.
 
 # Running This Project Locally
 
