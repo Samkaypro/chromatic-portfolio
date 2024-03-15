@@ -13,7 +13,7 @@ export default function Home() {
       
       >
     <main>
-      <div className="max-w-5xl mx-auto">
+      <div className="mnnnnnnnax-w-5xl mx-auto">
         <Herobanner/>
       </div>
     </main>
